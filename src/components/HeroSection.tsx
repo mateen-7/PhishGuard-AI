@@ -1,5 +1,6 @@
 import { Shield, ArrowRight } from "lucide-react";
 import ScoreGauge from "./ScoreGauge";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const stats = [
   { value: "3.4B", label: "Phishing emails analyzed" },
@@ -11,6 +12,7 @@ const HeroSection = () => {
   return (
     <section className="relative pt-24 pb-12 px-4">
       <div className="max-w-4xl mx-auto text-center">
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-semibold tracking-wider uppercase">
           <Shield className="w-4 h-4" />
@@ -28,7 +30,7 @@ const HeroSection = () => {
           AI-powered real-time phishing & scam detection platform protecting users from digital fraud.
         </p>
 
-        {/* Stats row */}
+        
         <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
           {stats.map((stat) => (
             <div key={stat.label} className="stat-card min-w-[160px]">
@@ -40,6 +42,7 @@ const HeroSection = () => {
             <ScoreGauge score={82} size={100} label="Scam risk score" />
           </div>
         </div>
+
       </div>
     </section>
   );
