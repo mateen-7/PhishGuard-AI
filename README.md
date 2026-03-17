@@ -96,20 +96,17 @@ Deployment	Vercel
 Authentication	Clerk (Optional)
 📁 Project Structure
 phish-guard-ai/
-│
-├── public/              # Static assets
-├── src/                 # React source code
-├── components/          # UI components
-├── pages/               # Application pages
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
-📸 Screenshots
 
-(Add screenshots here for better judging impact)
+public/              # Static assets
+src/                 # React source code
+components/          # UI components
+pages/               # Application pages
+index.html
+package.json
+vite.config.ts
+tailwind.config.ts
+tsconfig.json
+README.md
 
 Home Page
 
@@ -126,10 +123,7 @@ cd PhishGuard-AI
 npm install
 npm run dev
 
-Open in browser:
 
-http://localhost:5173
-🔮 Future Improvements
 
 🌐 Browser Extension for real-time protection
 
@@ -146,9 +140,9 @@ http://localhost:5173
 Phish-Guard AI aims to make cybersecurity accessible to everyone by providing an easy-to-use AI tool that helps users verify website safety instantly — reducing phishing risks for everyday internet users.
 
 👨‍💻 Author
-
-Abdul Mateen
-BTech CSE Student | Full Stack & AI Enthusiast
+Mohammed MuqueetUddin Mateen
+Mohammed Mustafa Ali Khan
+BTech CSE Students | Full Stack & AI Enthusiast
 
 ⭐ Support
 
